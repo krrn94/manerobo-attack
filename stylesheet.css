@@ -3,9 +3,19 @@
 }
 
 @media(max-width:600px ){
-  .title h5{
-    font-size: 15px;
-    color: red;
+  .thank h2{
+    font-size: 20px;
+  }
+
+  .copy{
+    font-size:17px;
+  }
+}
+
+@media(max-width:1000px ){
+
+  .copy{
+    font-size:25px;
   }
 }
 
@@ -34,9 +44,10 @@ header img{
   font-weight: bold;
 }
 
-.title h5{
+.thank h2{
   text-align: center;
-  font-size:30px;
+
+  font-weight: bold;
 }
 
 .title img{
@@ -49,7 +60,6 @@ header img{
 }
 
 .copy p{
-  font-size:25px;
   border-bottom: 1px solid black;
 }
 
