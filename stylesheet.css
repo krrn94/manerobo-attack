@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+@media(max-width:600px ){
+  .title h5{
+    font-size: 15px;
+    color: red;
+  }
+}
+
 body {
 	font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
 }
